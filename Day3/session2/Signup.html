@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Signupform.css">
+</head>
+<body>
+  <form  method="post" aria-label="Signup Form">
+    <fieldset>
+      <legend>Signup Form</legend>
+
+      
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" autocomplete="name" required aria-required="true">
+
+      
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" autocomplete="email" required aria-required="true" placeholder="Enter Email">
+
+    
+      <label for="contact">Contact No.</label>
+      <input type="tel" id="contact" name="contact" maxlength="10" autocomplete="tel" required aria-required="true" placeholder="Enter 10-digit number">
+
+      
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" minlength="8" autocomplete="new-password" required aria-required="true" placeholder="Enter Password">
+
+      
+      <fieldset>
+        <legend>Password must contain:</legend>
+        <label><input type="checkbox" id="rule-length" disabled><small>Minimum 8 characters</small></label><br>
+        <label><input type="checkbox" id="rule-uppercase" disabled><small>At least 1 uppercase letter</small></label><br>
+        <label><input type="checkbox" id="rule-number" disabled><small>At least 1 number</small></label><br>
+        <label><input type="checkbox" id="rule-special" disabled><small>At least 1 special character (!@#$%)</small></label>
+      </fieldset>
+
+      
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirm-password" name="confirm-password" autocomplete="new-password" required aria-required="true" placeholder="Re-enter Password">
+
+      
+      <fieldset>
+        <legend>Gender</legend>
+        <label><input type="radio" id="male" name="gender" value="male" required> Male</label>
+        <label><input type="radio" id="female" name="gender" value="female"> Female</label>
+      </fieldset>
+
+      
+      <fieldset>
+        <legend>Preferences</legend>
+        <label>
+          <input type="checkbox" id="newsletter" name="newsletter">
+          Subscribe to Newsletter
+        </label>
+      </fieldset>
+    </fieldset>
+
+    <button type="submit">Sign Up</button>
+  </form>
+</body>
+</html>
