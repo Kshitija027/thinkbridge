@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover & Responsive Image Example</title>
+  <link rel="stylesheet" href="csspolish.css">
+</head>
+<body>
+
+  <h1>Hover & Focus Micro-Interactions</h1>
+
+  <!-- Button with hover/focus transition -->
+  <button class="btn">Hover Me</button>
+
+  <!-- Card with transform on hover -->
+  <div class="card">
+    <img src="csspolish.jpeg"
+         srcset="csspolish.jpeg 480w,
+                 csspolish.jpeg 768w,
+                 csspolish.jpeg 1200w"
+         sizes="(max-width: 480px) 100vw,
+                (max-width: 768px) 75vw,
+                50vw"
+         alt="Responsive example image">
+    <h2>Responsive Card</h2>
+    <p em="8px">This card scales and responds on hover.</p>
+  </div>
+
+</body>
+</html>
