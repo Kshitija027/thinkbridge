@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Keywords Explorer</title>
+  <link rel="stylesheet" href="webpage.css">
+</head>
+<body>
+    <h1>Learn HTML CSS JAVASCRIPT Keywords</h1>
+  <p class="intro">Delightful web applications of HTML , CSS, and JavaScript keywords.</p>
+
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul class="navbar">
+      <li><a href="#html-section">HTML</a></li>
+      <li><a href="#css-section">CSS</a></li>
+      <li><a href="#js-section">JavaScript</a></li>
+    </ul>
+  </nav>
+
+  
+  <input type="text" id="searchBox" placeholder="Search keywords...">
+
+  <!-- HTML Section -->
+  <section id="html-section">
+    <h2>📌 HTML Tags & Attributes</h2>
+    <ul>
+      <li>
+        <b>&lt;p&gt;</b> — Paragraph text
+        <div class="example">
+          Example: <code>&lt;p&gt;Hello World&lt;/p&gt;</code><br>
+          Output: <p>Hello World</p>
+        </div>
+      </li>
+      <li>
+        <b>&lt;a href&gt;</b> — Hyperlink
+        <div class="example">
+          Example: <code>&lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;</code><br>
+          Output: <a href="https://www.google.com" target="_blank">Google</a>
+        </div>
+      </li>
+      <li>
+        <b>&lt;img src alt&gt;</b> — Image
+        <div class="example">
+          Example: <code>&lt;img src="https://via.placeholder.com/100" alt="Sample"&gt;</code><br>
+          Output: <img src="webpage.jpeg" alt="Sample">
+        </div>
+      </li>
+      <li>
+        <b>&lt;ul&gt; &lt;li&gt;</b> — List
+        <div class="example">
+          Example: <code>&lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ul&gt;</code><br>
+          Output:
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <b>&lt;div id class style&gt;</b> — Container
+        <div class="example">
+          Example: <code>&lt;div id="box" class="container" style="border:1px solid #000;"&gt;Content&lt;/div&gt;</code><br>
+          Output: <div id="box" class="container" style="border:1px solid #000; padding:5px;">Content</div>
+        </div>
+      </li>
+      <li>
+        <b>&lt;form action method input&gt;</b> — Form
+        <div class="example">
+          Example: <code>&lt;form action="#" method="post"&gt;&lt;input type="text" placeholder="Name"&gt;&lt;/form&gt;</code><br>
+          Output: <form><input type="text" placeholder="Name"></form>
+        </div>
+      </li>
+      <li>
+        <b>&lt;h1&gt;-&lt;h6&gt;</b> — Headings
+        <div class="example">
+          Example: <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code><br>
+          Output: <h2>Heading 2</h2>
+        </div>
+      </li>
+      <li>
+        <b>&lt;table&gt; &lt;tr&gt; &lt;td&gt;</b> — Table
+        <div class="example">
+          Example: <code>&lt;table border="1"&gt;&lt;tr&gt;&lt;td&gt;A&lt;/td&gt;&lt;td&gt;B&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code><br>
+          Output:
+          <table border="1">
+            <tr><td>A</td><td>B</td></tr>
+          </table>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- CSS Section -->
+  <section id="css-section">
+    <h2>🎨 CSS Properties</h2>
+    <ul>
+      <li><b>color</b> — Text color<div class="example" style="color:red;">Red text</div></li>
+      <li><b>background-color</b> — Background<div class="example" style="background:yellow; padding:5px;">Yellow box</div></li>
+      <li><b>margin</b> — Outer spacing<div class="example" style="margin:10px; border:1px solid #333;">Margin box</div></li>
+      <li><b>padding</b> — Inner spacing<div class="example" style="padding:10px; border:1px solid #333;">Padding box</div></li>
+      <li><b>border</b> — Element border<div class="example" style="border:2px solid blue; padding:5px;">Blue border</div></li>
+      <li><b>font-size</b> — Text size<div class="example" style="font-size:22px;">Medium text</div></li>
+      <li><b>display</b> — Element display<div class="example" style="display:inline-block; background:#ccc; padding:5px;">Inline-block box</div></li>
+      <li><b>width / height</b> — Element size<div class="example" style="width:150px; height:50px; background:#f39c12;">Box size</div></li>
+      <li><b>text-align</b> — Align text<div class="example" style="text-align:center; border:1px solid #000;">Centered text</div></li>
+    </ul>
+  </section>
+
+  <!-- JavaScript Section -->
+  <section id="js-section">
+    <h2>⚡ JavaScript Keywords</h2>
+    <ul>
+      <li><b>let</b> — Variable<div class="example"><code>let a=10; console.log(a);</code></div></li>
+      <li><b>const</b> — Constant<div class="example"><code>const PI=3.14; console.log(PI);</code></div></li>
+      <li><b>function</b> — Function<div class="example"><code>function greet(){ return "Hi"; } console.log(greet());</code></div></li>
+      <li><b>if / else</b> — Conditional<div class="example"><code>if(5>2){console.log("Yes");} else {console.log("No");}</code></div></li>
+      <li><b>for</b> — Loop<div class="example"><code>for(let i=0;i<3;i++){console.log(i);}</code></div></li>
+      <li><b>while</b> — Loop<div class="example"><code>let i=0; while(i<3){console.log(i); i++;}</code></div></li>
+      <li><b>class</b> — Class<div class="example"><code>class Person{constructor(name){this.name=name;}} let p=new Person("Bob"); console.log(p.name);</code></div></li>
+      <li><b>this</b> — Current object<div class="example"><code>let obj={name:"Alice", show:function(){console.log(this.name);}}; obj.show();</code></div></li>
+    </ul>
+  </section>
+
+  <script src="webpage.js"></script>
+</body>
+</html>
