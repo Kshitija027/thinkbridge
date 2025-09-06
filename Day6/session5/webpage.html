@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Keywords Explorer</title>
+  <link rel="stylesheet" href="webpage.css">
+</head>
+<body>
+    <h1>Learn HTML CSS JAVASCRIPT Keywords</h1>
+  <p class="intro">Delightful web applications of HTML , CSS, and JavaScript keywords.</p>
+
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul class="navbar">
+      <li><a href="#html-section">HTML</a></li>
+      <li><a href="#css-section">CSS</a></li>
+      <li><a href="#js-section">JavaScript</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+      
+    </ul>
+  </nav>
+
+
+  <input type="text" id="searchBox" placeholder="Search keywords...">
+
+  <!-- HTML Section -->
+  <section id="html-section">
+    <h2> <img src="htmllogo.png" alt="HTML Logo" style="width:30px; height:30px; vertical-align:middle; margin-right:8px;">
+  HTML Tags & Attributes
+</h2>
+<p>HTML- HTML (HyperText Markup Language) is the standard language for creating webpages.
+it tells the browser how to structure the content (text, images, links, videos, forms, etc.).
+HTML uses tags written inside < > to define elements.</p>
+    <ul>
+      <li>
+        <b>&lt;p&gt;</b> — Paragraph text
+        <div class="example">
+          Example: <code>&lt;p&gt;Hello World&lt;/p&gt;</code><br>
+          Output: <p>Hello World</p>
+        </div>
+      </li>
+      <li>
+        <b>&lt;a href&gt;</b> — Hyperlink
+        <div class="example">
+          Example: <code>&lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;</code><br>
+          Output: <a href="https://www.google.com" target="_blank">Google</a>
+        </div>
+      </li>
+      <li>
+        <b>&lt;img src alt&gt;</b> — Image
+        <div class="example">
+          Example: <code>&lt;img src="https://via.placeholder.com/100" alt="Sample"&gt;</code><br>
+          Output: <img src="thinkbridge.jpeg" alt="Sample">
+        </div>
+      </li>
+      <li>
+        <b>&lt;ul&gt; &lt;li&gt;</b> — List
+        <div class="example">
+          Example: <code>&lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ul&gt;</code><br>
+          Output:
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <b>&lt;div id class style&gt;</b> — Container
+        <div class="example">
+          Example: <code>&lt;div id="box" class="container" style="border:1px solid #000;"&gt;Content&lt;/div&gt;</code><br>
+          Output: <div id="box" class="container" style="border:1px solid #000; padding:5px;">Content</div>
+        </div>
+      </li>
+      <li>
+        <b>&lt;form action method input&gt;</b> — Form
+        <div class="example">
+          Example: <code>&lt;form action="#" method="post"&gt;&lt;input type="text" placeholder="Name"&gt;&lt;/form&gt;</code><br>
+          Output: <form><input type="text" placeholder="Name"></form>
+        </div>
+      </li>
+      <li>
+        <b>&lt;h1&gt;-&lt;h6&gt;</b> — Headings
+        <div class="example">
+          Example: <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code><br>
+          Output: <h2>Heading 2</h2>
+        </div>
+      </li>
+      <li>
+        <b>&lt;table&gt; &lt;tr&gt; &lt;td&gt;</b> — Table
+        <div class="example">
+          Example: <code>&lt;table border="1"&gt;&lt;tr&gt;&lt;td&gt;A&lt;/td&gt;&lt;td&gt;B&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code><br>
+          Output:
+          <table border="1">
+            <tr><td>A</td><td>B</td></tr>
+          </table>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- CSS Section -->
+  <section id="css-section">
+     <h2> <img src="csslogo.png" alt="HTML Logo" style="width:30px; height:30px; vertical-align:middle; margin-right:8px;">
+  css properties
+</h2>
+<p>CSS (Cascading Style Sheets) is used to style and design web pages.
+  It controls colors, fonts, layouts, spacing, backgrounds, animations, and much more.
+ HTML gives the structure, but CSS makes it look beautiful.</p>
+    <ul>
+      <li><b>color</b> — Text color<div class="example" style="color:red;">Red text</div></li>
+      <li><b>background-color</b> — Background<div class="example" style="background:yellow; padding:5px;">Yellow box</div></li>
+      <li><b>margin</b> — Outer spacing<div class="example" style="margin:10px; border:1px solid #333;">Margin box</div></li>
+      <li><b>padding</b> — Inner spacing<div class="example" style="padding:10px; border:1px solid #333;">Padding box</div></li>
+      <li><b>border</b> — Element border<div class="example" style="border:2px solid blue; padding:5px;">Blue border</div></li>
+      <li><b>font-size</b> — Text size<div class="example" style="font-size:22px;">Medium text</div></li>
+      <li><b>display</b> — Element display<div class="example" style="display:inline-block; background:#ccc; padding:5px;">Inline-block box</div></li>
+      <li><b>width / height</b> — Element size<div class="example" style="width:150px; height:50px; background:#f39c12;">Box size</div></li>
+      <li><b>text-align</b> — Align text<div class="example" style="text-align:center; border:1px solid #000;">Centered text</div></li>
+    </ul>
+  </section>
+
+  <!-- JavaScript Section -->
+  <section id="js-section">
+     <h2> <img src="jslogo.png" alt="HTML Logo" style="width:30px; height:30px; vertical-align:middle; margin-right:8px;">
+  javascript properties
+</h2>
+<p>JavaScript (JS) is a programming language that makes web pages interactive and dynamic.
+It runs inside the browser and can also run on servers (with Node.js).With JavaScript, you can:
+Change HTML & CSS on the flyRespond to user actions (click, input, scroll, etc.)Validate forms</p>
+    <ul>
+      <li><b>let</b> — Variable<div class="example"><code>let a=10; console.log(a);</code></div></li>
+      <li><b>const</b> — Constant<div class="example"><code>const PI=3.14; console.log(PI);</code></div></li>
+      <li><b>function</b> — Function<div class="example"><code>function greet(){ return "Hi"; } console.log(greet());</code></div></li>
+      <li><b>if / else</b> — Conditional<div class="example"><code>if(5>2){console.log("Yes");} else {console.log("No");}</code></div></li>
+      <li><b>for</b> — Loop<div class="example"><code>for(let i=0;i<3;i++){console.log(i);}</code></div></li>
+      <li><b>while</b> — Loop<div class="example"><code>let i=0; while(i<3){console.log(i); i++;}</code></div></li>
+      <li><b>class</b> — Class<div class="example"><code>class Person{constructor(name){this.name=name;}} let p=new Person("Bob"); console.log(p.name);</code></div></li>
+      <li><b>this</b> — Current object<div class="example"><code>let obj={name:"Alice", show:function(){console.log(this.name);}}; obj.show();</code></div></li>
+
+      <li><b>Data Types</b>
+        <div class="example"><code>let num=10; let str="Hi"; let bool=true; let arr=[1,2]; let obj={x:1};</code></div>
+      </li>
+      <li><b>Arrays</b>
+        <div class="example"><code>let arr=[1,2,3]; arr.push(4); console.log(arr);</code></div>
+      </li>
+      <li><b>Array Methods (map, filter, reduce)</b>
+        <div class="example"><code>
+          let nums=[1,2,3,4];<br>
+          let squares=nums.map(n=>n*n); // [1,4,9,16]<br>
+          let evens=nums.filter(n=>n%2===0); // [2,4]<br>
+          let sum=nums.reduce((a,b)=>a+b,0); // 10
+        </code></div>
+      </li>
+      <li><b>Strings</b>
+        <div class="example"><code>
+          let s="Hello World";<br>
+          console.log(s.toUpperCase()); // HELLO WORLD<br>
+          console.log(s.includes("World")); // true<br>
+          console.log(s.split(" ")); // ["Hello","World"]
+        </code></div>
+      </li>
+      <li><b>Functions</b>
+        <div class="example"><code>function add(a,b){return a+b;} console.log(add(2,3));</code></div>
+      </li>
+      <li><b>Arrow Functions</b>
+        <div class="example"><code>let greet=()=> "Hi"; console.log(greet());</code></div>
+      </li>
+      <li><b>Objects</b>
+        <div class="example"><code>let person={name:"Alice",age:22}; console.log(person.name);</code></div>
+      </li>
+      <li><b>Class</b>
+        <div class="example"><code>
+          class Car{constructor(n){this.name=n;}}<br>
+          let c=new Car("BMW"); console.log(c.name);
+        </code></div>
+      </li>
+      <li><b>Loops</b>
+        <div class="example"><code>for(let i=0;i&lt;3;i++){console.log(i);}</code></div>
+      </li>
+      <li><b>Conditions</b>
+        <div class="example"><code>if(num&gt;5){console.log("Big");} else{console.log("Small");}</code></div>
+      </li>
+      <li><b>DOM Manipulation</b>
+        <div class="example"><code>
+          document.body.style.background="lightyellow";<br>
+          let div=document.createElement("div");<br>
+          div.innerText="Dynamic Element";<br>
+          document.body.appendChild(div);
+        </code></div>
+      </li>
+      <li><b>Events</b>
+        <div class="example"><code>
+          document.getElementById("searchBox").addEventListener("input",()=>{<br>
+            console.log("Typing...");<br>
+          });
+        </code></div>
+      </li>
+      <li><b>Promises</b>
+        <div class="example"><code>
+          let promise=new Promise((res,rej)=>{<br>
+            setTimeout(()=>res("Done!"),1000);<br>
+          });<br>
+          promise.then(v=>console.log(v));
+        </code></div>
+      </li>
+      <li><b>Async / Await</b>
+        <div class="example"><code>
+          async function fetchData(){<br>
+            return "Data Loaded";<br>
+          }<br>
+          fetchData().then(console.log);
+        </code></div>
+      </li>
+    </ul>
+    </section>
+
+          <!-- Contact Section -->
+  <section id="contact-section">
+    <h2>
+      <img src="contact.png" alt="Contact Logo" style="width:30px; height:30px; vertical-align:middle; margin-right:8px;">
+        Contact
+    </h2>
+    <p>We’d love to hear from you! Fill out the form below and we’ll get back to you soon for next course update.</p>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="formResponse"></div>
+  </section>
+
+
+  <script src="webpage.js"></script>
+
+</body>
+</html>
+ 
