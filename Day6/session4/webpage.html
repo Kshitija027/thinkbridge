@@ -17,6 +17,8 @@
       <li><a href="#html-section">HTML</a></li>
       <li><a href="#css-section">CSS</a></li>
       <li><a href="#js-section">JavaScript</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+      
     </ul>
   </nav>
 
@@ -25,7 +27,12 @@
 
   <!-- HTML Section -->
   <section id="html-section">
-    <h2>📌 HTML Tags & Attributes</h2>
+    <h2> <img src="htmllogo.png" alt="HTML Logo" style="width:30px; height:30px; vertical-align:middle; margin-right:8px;">
+  HTML Tags & Attributes
+</h2>
+<p>HTML- HTML (HyperText Markup Language) is the standard language for creating webpages.
+it tells the browser how to structure the content (text, images, links, videos, forms, etc.).
+HTML uses tags written inside < > to define elements.</p>
     <ul>
       <li>
         <b>&lt;p&gt;</b> — Paragraph text
@@ -45,7 +52,7 @@
         <b>&lt;img src alt&gt;</b> — Image
         <div class="example">
           Example: <code>&lt;img src="https://via.placeholder.com/100" alt="Sample"&gt;</code><br>
-          Output: <img src="webpage.jpeg" alt="Sample">
+          Output: <img src="thinkbridge.jpeg" alt="Sample">
         </div>
       </li>
       <li>
@@ -95,7 +102,12 @@
 
   <!-- CSS Section -->
   <section id="css-section">
-    <h2>🎨 CSS Properties</h2>
+     <h2> <img src="csslogo.png" alt="HTML Logo" style="width:30px; height:30px; vertical-align:middle; margin-right:8px;">
+  css properties
+</h2>
+<p>CSS (Cascading Style Sheets) is used to style and design web pages.
+  It controls colors, fonts, layouts, spacing, backgrounds, animations, and much more.
+ HTML gives the structure, but CSS makes it look beautiful.</p>
     <ul>
       <li><b>color</b> — Text color<div class="example" style="color:red;">Red text</div></li>
       <li><b>background-color</b> — Background<div class="example" style="background:yellow; padding:5px;">Yellow box</div></li>
@@ -111,7 +123,12 @@
 
   <!-- JavaScript Section -->
   <section id="js-section">
-    <h2>⚡ JavaScript Keywords</h2>
+     <h2> <img src="jslogo.png" alt="HTML Logo" style="width:30px; height:30px; vertical-align:middle; margin-right:8px;">
+  javascript properties
+</h2>
+<p>JavaScript (JS) is a programming language that makes web pages interactive and dynamic.
+It runs inside the browser and can also run on servers (with Node.js).With JavaScript, you can:
+Change HTML & CSS on the flyRespond to user actions (click, input, scroll, etc.)Validate forms</p>
     <ul>
       <li><b>let</b> — Variable<div class="example"><code>let a=10; console.log(a);</code></div></li>
       <li><b>const</b> — Constant<div class="example"><code>const PI=3.14; console.log(PI);</code></div></li>
@@ -121,10 +138,109 @@
       <li><b>while</b> — Loop<div class="example"><code>let i=0; while(i<3){console.log(i); i++;}</code></div></li>
       <li><b>class</b> — Class<div class="example"><code>class Person{constructor(name){this.name=name;}} let p=new Person("Bob"); console.log(p.name);</code></div></li>
       <li><b>this</b> — Current object<div class="example"><code>let obj={name:"Alice", show:function(){console.log(this.name);}}; obj.show();</code></div></li>
+
+      <li><b>Data Types</b>
+        <div class="example"><code>let num=10; let str="Hi"; let bool=true; let arr=[1,2]; let obj={x:1};</code></div>
+      </li>
+      <li><b>Arrays</b>
+        <div class="example"><code>let arr=[1,2,3]; arr.push(4); console.log(arr);</code></div>
+      </li>
+      <li><b>Array Methods (map, filter, reduce)</b>
+        <div class="example"><code>
+          let nums=[1,2,3,4];<br>
+          let squares=nums.map(n=>n*n); // [1,4,9,16]<br>
+          let evens=nums.filter(n=>n%2===0); // [2,4]<br>
+          let sum=nums.reduce((a,b)=>a+b,0); // 10
+        </code></div>
+      </li>
+      <li><b>Strings</b>
+        <div class="example"><code>
+          let s="Hello World";<br>
+          console.log(s.toUpperCase()); // HELLO WORLD<br>
+          console.log(s.includes("World")); // true<br>
+          console.log(s.split(" ")); // ["Hello","World"]
+        </code></div>
+      </li>
+      <li><b>Functions</b>
+        <div class="example"><code>function add(a,b){return a+b;} console.log(add(2,3));</code></div>
+      </li>
+      <li><b>Arrow Functions</b>
+        <div class="example"><code>let greet=()=> "Hi"; console.log(greet());</code></div>
+      </li>
+      <li><b>Objects</b>
+        <div class="example"><code>let person={name:"Alice",age:22}; console.log(person.name);</code></div>
+      </li>
+      <li><b>Class</b>
+        <div class="example"><code>
+          class Car{constructor(n){this.name=n;}}<br>
+          let c=new Car("BMW"); console.log(c.name);
+        </code></div>
+      </li>
+      <li><b>Loops</b>
+        <div class="example"><code>for(let i=0;i&lt;3;i++){console.log(i);}</code></div>
+      </li>
+      <li><b>Conditions</b>
+        <div class="example"><code>if(num&gt;5){console.log("Big");} else{console.log("Small");}</code></div>
+      </li>
+      <li><b>DOM Manipulation</b>
+        <div class="example"><code>
+          document.body.style.background="lightyellow";<br>
+          let div=document.createElement("div");<br>
+          div.innerText="Dynamic Element";<br>
+          document.body.appendChild(div);
+        </code></div>
+      </li>
+      <li><b>Events</b>
+        <div class="example"><code>
+          document.getElementById("searchBox").addEventListener("input",()=>{<br>
+            console.log("Typing...");<br>
+          });
+        </code></div>
+      </li>
+      <li><b>Promises</b>
+        <div class="example"><code>
+          let promise=new Promise((res,rej)=>{<br>
+            setTimeout(()=>res("Done!"),1000);<br>
+          });<br>
+          promise.then(v=>console.log(v));
+        </code></div>
+      </li>
+      <li><b>Async / Await</b>
+        <div class="example"><code>
+          async function fetchData(){<br>
+            return "Data Loaded";<br>
+          }<br>
+          fetchData().then(console.log);
+        </code></div>
+      </li>
     </ul>
+    </section>
+
+          <!-- Contact Section -->
+  <section id="contact-section">
+    <h2>
+      <img src="contact.png" alt="Contact Logo" style="width:30px; height:30px; vertical-align:middle; margin-right:8px;">
+        Contact
+    </h2>
+    <p>We’d love to hear from you! Fill out the form below and we’ll get back to you soon for next course update.</p>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="formResponse"></div>
   </section>
 
+
   <script src="webpage.js"></script>
+
 </body>
 </html>
  
